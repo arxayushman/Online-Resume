@@ -179,3 +179,24 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(100, 255, 218, 0.1);
 }
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  color: var(--background-light);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: var(--primary-color);
+}
+
